@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-color: rgb(185, 238, 220);
+}
+#calendar{
+	width: 700px;
+	margin: 100px auto;
+	background-color: #eee;
+	background-color: rgb(165, 245, 218);
+}
+.title{
+	line-height: 70px;
+	text-align: center;
+	border-bottom: 1px dashed;
+}
+.title select{
+	width: 100px;
+	height: 30px;
+	background-color: transparent;
+	outline: none;
+	border-color:rgb(80, 73, 73);
+}
+.title button{
+	background-color: transparent;
+	border: none;
+	width: 110px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid rgb(80, 73, 73);
+	outline: none;
+	color: rgb(80, 73, 73);
+	cursor: pointer;
+}
+.ht{
+ 	overflow: hidden;
+}
+.ht li{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	float: left;
+	line-height: 50px;
+	font-weight: bold;
+	color: rgb(80, 73, 73);
+}
+.date{
+	overflow: hidden;
+}
+.date li{
+	width: 100px;
+	line-height: 40px;
+	height: 40px;
+	text-align: center;
+	float: left;
+	color: rgb(80, 73, 73);
+}
